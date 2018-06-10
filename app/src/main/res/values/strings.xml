@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">ALF Israel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="facebook_app_id">325900174539184</string>
+    <string name="fb_login_protocol_scheme">fb325900174539184</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="manage_alarms">Manage Alarms</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+
+    <string name="days_before_title">Alert Days Before</string>
+    <string name="days_before_summary">how many days before should you remind me</string>
+    <string name="repeating_intervals_title">after first alert repeat it</string>
+    <string name="repeating_intervals_summary">what is the repeating interval of the alert</string>
+
+
+    <string name="invite">You are Invited to ALF Israel https://play.google.com/store/apps/details?id=app.alf</string>
+    <string name="invite_title">ALF Israel (Open it in Google Play Store to Download the Application)</string>
+
+    <!--  SettingsActivity   -->
+    <string-array name="days_before">
+        <item >Dont notify me before</item>
+        <item >day 1 before</item>
+        <item >day 2 before</item>
+        <item >day 3 before</item>
+        <item >day 4 before</item>
+        <item >day 5 before</item>
+        <item >day 6 before</item>
+        <item >day 7 before</item>
+        <item >day 14 before</item>
+        <item >day 30 before</item>
+    </string-array>
+    <string-array name="days_before_array_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >14</item>
+        <item >30</item>
+    </string-array>
+
+    <!--  SettingsActivity   -->
+    <string-array name="repeating_intervals">
+        <item >Dont repeat the event alarms</item>
+        <item >Every 30 min from first Alarm</item>
+        <item >Every hour from first Alarm</item>
+        <item >Every half day from first Alarm</item>
+        <item >Every day from first Alarm</item>
+        <item >Every week from first Alarm</item>
+        <item >Every month from first Alarm</item>
+    </string-array>
+    <string-array name="repeating_intervals_array_values">
+        <item >0</item>
+        <item >1800000</item>
+        <item >3600000</item>
+        <item >43200000</item>
+        <item >86400000</item>
+        <item >604800000</item>
+        <item >2419200000</item>
+    </string-array>
+
+
+    <string name="title_activity_event_info"> Event Info </string>
+    <string name="send_mail">Send Mail</string>
+    <string name="share_via">Share Via</string>
+
+
+</resources>

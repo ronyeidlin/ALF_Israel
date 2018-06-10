@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">ALF Israel</string>
+
+    <string name="navigation_drawer_open">פתח תפריט</string>
+    <string name="navigation_drawer_close">סגור תפריט</string>
+
+    <string name="action_settings">הגדרות</string>
+
+
+    <string name="facebook_app_id">325900174539184</string>
+    <string name="fb_login_protocol_scheme">fb325900174539184</string>
+    <string name="title_activity_login">התחבר</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">אימייל</string>
+    <string name="prompt_password">סיסמה (אפשרי)</string>
+    <string name="action_sign_in">התחבר או הרשם</string>
+    <string name="action_sign_in_short">התחבר</string>
+    <string name="error_invalid_email">המייל הזה לא תקין</string>
+    <string name="error_invalid_password">הסיסמה הזאת קצרה מידי</string>
+    <string name="error_incorrect_password">סיסמה לא נכונה</string>
+    <string name="error_field_required">השדה הזה חובה</string>
+
+
+    <string name="reminder_settings">הגדרות תזכורת</string>
+    <string name="manage_alarms">נהל התראות</string>
+    <string name="communicate">צור קשר</string>
+    <string name="share">שתף</string>
+    <string name="send">מייל</string>
+
+
+
+    <string name="days_before_title">כמה ימים לפני לתזכר</string>
+    <string name="days_before_summary">כמה ימים לפני האירוע לתזכר אותך</string>
+    <string name="repeating_intervals_title">חזרה על התזכורת</string>
+    <string name="repeating_intervals_summary">כמה פעמים לחזור על התזכורת</string>
+
+    <string name="invite">You are Invited to ALF Israel https://play.google.com/store/apps/details?id=app.alf</string>
+    <string name="invite_title">ALF Israel (Open it in Google Play Store to Download the Application)</string>
+    <string name="title_activity_event_info"> פרטי האירוע </string>
+    <string name="send_mail">שלח מייל</string>
+    <string name="share_via">שתף דרך</string>
+
+    <!--  SettingsActivity   -->
+    <string-array name="days_before">
+        <item >כבה התראות</item>
+        <item >1 יום לפני</item>
+        <item >2 יום לפני</item>
+        <item >3 יום לפני</item>
+        <item >4 יום לפני</item>
+        <item >5 יום לפני</item>
+        <item >6 יום לפני</item>
+        <item >7 יום לפני</item>
+        <item >14 יום לפני</item>
+        <item >30 יום לפני</item>
+    </string-array>
+    <string-array name="days_before_array_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >14</item>
+        <item >30</item>
+    </string-array>
+
+    <!--  SettingsActivity   -->
+    <string-array name="repeating_intervals">
+        <item >אל תחזור על התראות</item>
+        <item >חזרה כל 30 דקות</item>
+        <item >חזרה כל שעה</item>
+        <item >חזרה כל חצי יום</item>
+        <item >חזרה כל יום</item>
+        <item >חזרה כל שבוע</item>
+        <item >חזרה כל חודש</item>
+    </string-array>
+    <string-array name="repeating_intervals_array_values">
+        <item >0</item>
+        <item >1800000</item>
+        <item >3600000</item>
+        <item >43200000</item>
+        <item >86400000</item>
+        <item >604800000</item>
+        <item >2419200000</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+</resources>

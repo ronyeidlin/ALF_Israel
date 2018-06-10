@@ -1,0 +1,32 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/reminder_settings">
+
+        <ListPreference
+            android:key="days_before"
+            android:title="@string/days_before_title"
+            android:summary="@string/days_before_summary"
+            android:entries="@array/days_before"
+            android:entryValues="@array/days_before_array_values"
+            android:dialogTitle="@string/days_before_title" />
+
+
+        <ListPreference
+            android:key="repeating_intervals"
+            android:title="@string/repeating_intervals_title"
+            android:summary="@string/repeating_intervals_summary"
+            android:entries="@array/repeating_intervals"
+            android:entryValues="@array/repeating_intervals_array_values"
+            android:dialogTitle="@string/repeating_intervals_title" />
+
+
+        <Preference
+            android:key="version"
+            android:title="version"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

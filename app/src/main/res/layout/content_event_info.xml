@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="30dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.alf.Activities.EventInfoActivity"
+    tools:showIn="@layout/activity_event_info">
+
+
+    <Button
+        android:id="@+id/facebook_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/com_facebook_button_background"
+        android:text="Facebook Event"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/EventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebook_event"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="EventName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/EventPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EventName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="EventPlace"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/EventStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EventPlace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="EventStartTime"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/EventDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EventStartTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="EventDescription"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/EventEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EventDescription"
+        android:layout_centerHorizontal="true"
+        android:text="EventEndTime"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
